@@ -39,6 +39,20 @@ Generated price paths using the simulation model, capturing a wide range of pote
 
 ![Price Simulation](Images/AAPL_Stock_Price_Simulated.png)
 
+
+### Distribution of Returns
+
+![Returns Distribution](Images/returns_distribution.png)
+
+The histogram shows the distribution of returns for AAPL stock, providing insights into the frequency and magnitude of price changes.
+
+### Volatility Over Time
+
+![Volatility Over Time](Images/volatility_over_time.png)
+
+The chart illustrates AAPL stock prices over time, with a volatility band indicating the range of potential price fluctuations.
+
+
 ### Monte Carlo Simulation
 
 - Developed a simulation model to generate thousands of possible price paths for AAPL stock.
