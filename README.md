@@ -37,7 +37,7 @@ Identified historical volatility of 91.28%, indicating significant price fluctua
 
 Generated price paths using the simulation model, capturing a wide range of potential future scenarios represented by percentiles.
 
-![Price Simulation](Images/AAPL_Stock_Price_Simulated_%.png)
+![Price Simulation](Images/AAPL_Stock_Price_Simulated.png)
 
 ### Monte Carlo Simulation
 
