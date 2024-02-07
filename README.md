@@ -31,13 +31,13 @@ The objective of this project is to:
 
 Identified historical volatility of 91.28%, indicating significant price fluctuations. This is visually confirmed by the wide Bollinger Bands.
 
-![Volatility Analysis](images/AAPL_Stock_Price.png)
+![Volatility Analysis](Images/AAPL_Stock_Price.png)
 
 ### Simulated Price Ranges
 
 Generated price paths using the simulation model, capturing a wide range of potential future scenarios represented by percentiles.
 
-![Price Simulation](images/AAPL_Stock_Price_Simulated_%.png)
+![Price Simulation](Images/AAPL_Stock_Price_Simulated_%.png)
 
 ### Monte Carlo Simulation
 
