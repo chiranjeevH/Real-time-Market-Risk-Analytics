@@ -66,6 +66,30 @@ plt.legend()
 plt.show()
 
 
+# 1. Distribution of Returns
+plt.hist(market_data['Returns'])
+plt.xlabel('Return')
+plt.ylabel('Frequency')
+plt.title('Distribution of AAPL Stock Returns')
+plt.show()
+
+# 2. Volatility Over Time
+plt.figure(figsize=(12, 6))
+plt.plot(market_data.index, market_data['Close'], label='Close Price')
+plt.plot(market_data.index, market_data['MA'], label='Moving Average')
+plt.fill_between(market_data.index, market_data['Close'] + volatility, market_data['Close'] - volatility, alpha=0.2, label='Volatility Band')
+plt.xlabel('Date')
+plt.ylabel('Price')
+plt.title('AAPL Stock Price with Volatility Band')
+plt.legend()
+plt.show()
+
+
+print(f"Volatility: {volatility:.4f}")
+
+print("Market data analysis completed. Please refer to the results and visu")
+
+
 # Value at Risk (VaR) Calculation
 confidence_level = 0.95
 var_historical = np.percentile(simulated_returns[-1, :], 1 - confidence_level) * -initial_price
