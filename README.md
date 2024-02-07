@@ -13,6 +13,9 @@ The objective of this project is to:
 
 ## Methodology
 
+
+
+
 ### Data Analysis
 
 - Collected and analyzed historical market data on AAPL stock price.
@@ -22,6 +25,19 @@ The objective of this project is to:
 
 - Calculated the stock's volatility using Bollinger Bands analysis.
 - Visualized historical volatility trends to identify patterns and fluctuations.
+
+
+### High Volatility
+
+Identified historical volatility of 91.28%, indicating significant price fluctuations. This is visually confirmed by the wide Bollinger Bands.
+
+![Volatility Analysis](images/AAPL_Stock_Price.png)
+
+### Simulated Price Ranges
+
+Generated price paths using the simulation model, capturing a wide range of potential future scenarios represented by percentiles.
+
+![Price Simulation](images/AAPL_Stock_Price_Simulated_%.png)
 
 ### Monte Carlo Simulation
 
